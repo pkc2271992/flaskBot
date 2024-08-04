@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HOME</title>
+    </head>
+    <body>
+        <h1>Ask me anything</h1>
+        <div>
+            <form method="post" action="{{ url_for('chatbot')}}">
+                <label for="catagory"><strong>Catagory</strong></label><br>
+                <input type="text" id="catagory" name="catagory"><br>
+                <label for="company"><strong>Company</strong></label><br>
+                <input type="text" id="company" name="company"><br>                
+                <label for="channel"><strong>Channel</strong></label><br>
+                <input type="text" id="channel" name="channel"><br>                
+                <label for="comments"><strong>Coments</strong></label><br>                
+                <input type="text" id="comments" name="comments"><br>                
+                <input type="submit" value="Submit"> 
+            </form>
+        </div>
+    </body>
+</html>
